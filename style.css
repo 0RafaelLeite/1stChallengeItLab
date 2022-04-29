@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    max-width: 100%;;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    max-width: 99%;
+    font-weight:bold;
+    background-image: url(body-bg.webp);
+}
+
+form {
+    max-width: 100%;
+}
+
+#obg {
+    display: none;
+}
+
+body input {
+    background-color: rgba(255, 255, 255, .85);
+}
+
+header {
+    padding-top: 20px;
+    background-image: url(bg\ itlab.png);
+    background-size: cover;
+    max-width: 100%;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 25px auto;
+    background-color: whitesmoke;
+    padding-left: 35px;
+    max-width: 680px;
+}
+
+#fields {
+    width: 50%;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.row {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container h3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: content-box;
+    padding: 6px;
+    background-color: rgba(255, 255, 255, .9);
+    margin: auto 100px auto 100px;
+
+}
+
+#saldo {
+    max-width: fit-content;
+}
+
+#iSaldo {
+    margin-left: 0;
+    width: 40%;
+    border-color: lightgreen;
+    border-radius: 5px;
+}
+
+#iDesc {
+    /*width: 28%;*/
+    margin: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.bi-journal {
+    display: none;
+    position: absolute;
+    transform: translateX(160px) translateY(-37px)
+}
+
+.rounded-pill {
+    background-color: darkblue;
+    margin: 0 auto 0 auto;
+}
+
+.bi-exclamation-diamond {
+    transform: translateY(-3px);
+}
+
+footer {
+    background-image: url(footer-bg.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+}
+footer a {
+    margin: 0 20px 0 20px;
+}
+#validar {
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+footer img {
+    display: block;
+    transform: translatey(-170px) scale(.7);
+    position: absolute;
+}
+
+@media screen and (max-width: 700px ) {
+   main .bi {
+       display: none;
+   }
+   #iDesc {
+       width: auto;
+   }
+
+   footer img {
+    display: none;
+   }
+   
+   #chamada {
+        display: none;
+    }
+
+    #obg {
+        display: contents;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+}
+
+section {
+       font-size: 1.2em;
+   }
+
+p {
+    margin: 30px auto 30px auto;
+}
+
+h4 {
+    margin: 30px auto 30px auto;
+}
+
+ul {
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+    button {
+        width: auto;
+        margin-left: 40px;
+    }
+
+    #iDesc {
+        width: 100%;
+    }
+
+    #chamada {
+        display: none;
+    }
+
+    #obg {
+        display: contents;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    span #mUrg ::first-letter{
+        text-transform: uppercase;
+    }
+
+    #urg {
+        font-size: .99rem;
+        font-weight: bold;
+    }
+
+    #iUrg {
+        display: none;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    main {
+        text-align: left;
+    }
+
+    form {
+        margin: auto 0 auto 0;
+    }
+}
