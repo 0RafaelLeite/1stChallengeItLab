@@ -9,9 +9,6 @@ let vali = document.getElementById('validar');
 let mensagemErro = document.getElementById('mensagem-erro');
 let errosLista = [];
 
-//var pChars = 'aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ1234567890 ';
-
-
 function validaTipo(){
     if(tipo.value == '0'){
         errosLista.push('Selecione um tipo');
@@ -28,7 +25,7 @@ function validaDesc(){
     var pChars = ['a', 'A', 'b', 'B', 'c', 'C', 'd','D', 'e', 'E', 'f', 'F', 'g', 'G', 'h', 'H', 'i', 'I', 'j', 'J', 'k', 'K', 'l', 'L', 'm', 'M', 'n', 'N', 'o', 'O', 'p', 'P', 'q', 'Q', 'r', 'R', 's', 'S', 't', 'T', 'u', 'U', 'v', 'V', 'w', 'W', 'x', 'X', 'y', 'Y' , 'z', 'Z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ']
     for (var i = 0; i < desc.value.length; i++){
         if (pChars.indexOf(desc.value.charAt(i)) == -1){
-            errosLista.push('caracter encontrado');
+            errosLista.push('Caracteres especial não são permitidos');
             break;
         }
     }
