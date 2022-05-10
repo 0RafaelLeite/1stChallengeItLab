@@ -12,6 +12,10 @@ body {
     background-image: url(body-bg.webp);
 }
 
+select {
+    border: 2px solid rgba(0, 0, 0, .7);
+}
+
 form {
     max-width: 100%;
 }
