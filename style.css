@@ -47,7 +47,7 @@ main {
     max-width: 680px;
 }
 
-#origem {
+#origin {
     width: 50%;
 }
 
@@ -79,11 +79,7 @@ section {
 
 }
 
-#saldo {
-    max-width: fit-content;
-}
-
-#iSaldo {
+#balance {
     margin-left: 0;
     width: 40%;
     border-color: lightgreen;
@@ -91,7 +87,6 @@ section {
 }
 
 #iDesc {
-    /*width: 28%;*/
     margin: auto;
     margin-bottom: 20px;
     display: inline-block;
